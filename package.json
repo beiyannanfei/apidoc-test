@@ -1,0 +1,25 @@
+{
+  "name": "apidoc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "apidoc": "apidoc -i myapp/ -o apidoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beiyannanfei/apidoc-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beiyannanfei/apidoc-test/issues"
+  },
+  "apidoc": {
+    "title": "apidoc文档练习",
+    "url" : "http://127.0.0.1/v1",
+    "version": "0.1.0"
+  },
+  "homepage": "https://github.com/beiyannanfei/apidoc-test#readme"
+}
